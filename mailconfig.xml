@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config>
+    <parameters>
+        <variable variableName="mailconfig">
+            <attribute type="text" name="mailbox_server">imap.provider.com</attribute>
+            <attribute type="text" name="mailbox_protocol">IMAP_SSL</attribute>
+            <attribute type="integer" name="mailbox_port">993</attribute>
+            <attribute type="text" name="smtp_server">mail.provider.com</attribute>
+            <attribute type="integer" name="smtp_port">587</attribute>
+            <attribute type="text" name="smtp_encryption">TLS</attribute>
+            <attribute type="text" name="username">example@provider.com</attribute>
+            <attribute type="text" name="password">*******</attribute>
+            <attribute type="text" name="language">en</attribute>
+            <attribute type="boolean" name="multipage">true</attribute>
+        </variable>
+    </parameters>
+</config>
